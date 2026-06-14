@@ -1,0 +1,38 @@
+/* ===== CSS halaman utama (cv_rad) =====
+   Catatan: file ini tadinya isinya HTML (kebalik), sekarang diisi CSS beneran.
+   Tema biru tetap sama seperti aslinya, cuma dirapikan biar warna & tata letak nyambung. */
+
+/* navigasi di bawah judul (About Me | Contacs | dst) */
+h2 a {
+    color: #0b3a4a;          /* warna link diubah jadi biru tua biar kebaca (sebelumnya putih, susah dilihat) */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+
+/* bagian foto + perkenalan di atas dibikin rata tengah */
+.hero-section {
+    text-align: center;
+}
+
+/* foto-foto dikasih bayangan tipis biar nggak terlihat polos */
+.hero-section img,
+header img {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+/* paragraf dibuat rata kiri-kanan biar rapi */
+.rata-kanan-kiri {
+    text-align: justify;
+}
+
+/* garis pemisah antar bagian */
+hr {
+    border: none;
+    border-top: 1px solid #5a9fb0;
+    margin: 20px 0;
+}

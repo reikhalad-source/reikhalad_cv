@@ -1,0 +1,56 @@
+/* ===== CSS halaman Experience =====
+   Catatan: file ini tadinya isinya HTML (kebalik), sekarang diisi CSS.
+   Halaman ini sebelumnya polos, sekarang tabel pengalaman kerja diberi warna biru. */
+
+/* warna & font dasar, disamakan dgn halaman utama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #94cfda;
+    color: #1a1a1a;
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* judul rata tengah */
+h1 {
+    text-align: center;
+    color: #0b3a4a;
+}
+
+/* kartu putih pembungkus tabel & daftar project */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.card h3 {
+    color: #0b3a4a;
+    margin-top: 0;
+}
+
+/* tabel pengalaman kerja dibikin rapi & bergaris */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.custom-table th,
+.custom-table td {
+    border: 1px solid #cccccc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+/* baris judul tabel warna biru (class table-blue) */
+.table-blue th {
+    background-color: #0b3a4a;
+    color: #ffffff;
+}
+
+/* baris selang-seling biar enak dibaca */
+.table-blue tbody tr:nth-child(even) {
+    background-color: #eaf4f7;
+}

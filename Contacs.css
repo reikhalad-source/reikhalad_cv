@@ -1,0 +1,48 @@
+/* ===== CSS halaman Contacs =====
+   Catatan: file ini tadinya isinya HTML (kebalik), sekarang diisi CSS.
+   Halaman kontak sebelumnya polos, sekarang link dibikin jadi tombol biar enak diklik. */
+
+/* warna & font dasar, disamakan dgn halaman utama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #94cfda;
+    color: #1a1a1a;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+/* judul rata tengah */
+h1 {
+    text-align: center;
+    color: #0b3a4a;
+}
+
+/* daftar kontak: hilangkan bullet biar lebih bersih */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* tombol link (email, dll) */
+.btn {
+    display: inline-block;
+    background-color: #0b3a4a;
+    color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 4px 0;
+}
+
+/* tombol versi garis luar (LinkedIn & Instagram) */
+.btn-outline {
+    background-color: transparent;
+    color: #0b3a4a;
+    border: 1px solid #0b3a4a;
+}
+.btn:hover,
+.btn-outline:hover {
+    opacity: 0.85;
+}
